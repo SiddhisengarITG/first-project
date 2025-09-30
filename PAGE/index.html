@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            list-style: none;
+        }
+       footer a{
+            color: black;
+        }
+        *{
+            text-decoration: none;
+        }
+        .footerlinks {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+ul.footerLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+input.emailFooter {
+    border: none;
+    outline: none;
+}
+li.smallContent {
+    background: white;
+    border: 1px solid #09030233;
+    padding: 7px;
+}
+select.footer1 {
+    background: white;
+    padding: 9px;
+    border: 1px solid #09030233;
+    align-items: anchor-center;
+}
+.footerlinksSec {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+.footerlinksthird {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.footerlinksthird div {
+    display: flex;
+    gap: 20px;
+}
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footerContent">
+          <div class="footerInner">
+            <!-- first div -->
+            <div class="footerlinks">
+                <ul class="logoWithContent">
+                    <li><a href="#"><img src="./ASSESTS/logo project.png" alt="footer Product Logo" height="100%" width="100%"></a></li>
+                    <li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever hen an unknown printerto make a type specimen book.</p></li>
+                    <li><span><a herf="#"><img src="./ASSESTS/logo list footer.png" alt="logos"> </a></span></li>  
+                </ul>
+                  <ul class="footerLinks li interFont">
+                    <li><a href="#" class="blackColor fontW_Seven">Our Universe</a></li>
+                    <li><a href="#" class="blackColor">About Us</a></li>
+                    <li><a href="#" class="blackColor">Stories</a></li>
+                    <li><a href="#" class="blackColor">Shop the Style</a></li>
+                     <li><a href="#" class="blackColor">Enterprise Care</a></li>
+                 </ul>
+                 <ul class="footerLinks li interFont">
+                    <li><a href="#" class="blackColor  fontW_Seven">Customer Service</a></li>
+                    <li><a href="#" class="blackColor">Returns & Refunds</a></li>
+                    <li><a href="#" class="blackColor">Shipping & Collection</a></li>
+                    <li><a href="#" class="blackColor">Privacy Policy</a></li>
+                    <li><a href="#" class="blackColor">FAQs</a></li>
+                </ul>
+                   <ul class="footerLinks li interFont">
+                     <li><a href="#" class="blackColor  fontW_Seven">Stay in touch</a></li>
+                     <li>Sign up for exclusive offers, original stories, events and more.</li> 
+                     <li class="smallContent"><input type="text" class="emailFooter" placeholder="Your Email">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                     <path d="M0.955566 8.91992H15.6416M8.63457 1.41992L16.1346 8.91992L8.63457 16.4199" stroke="#090302" stroke-width="1.5"/>
+                     </svg>
+                  </li>
+                </ul>
+            </div>
+            <!-- second div  -->
+            <div class="footerlinksSec">
+                 <div class="flex selectfooter">
+                 <select class="footer1">
+                   <option value="United States (USD $)">
+                     United States (USD $)
+                   </option>
+                 </select>
+                
+                 <select class="footer1">
+                   <option value="English">English</option>
+                 </select>
+               </div>
+                 <div>
+                <img src="./ASSESTS/payment list.png" alt="payment card" height="100%" width="100%">
+               </div>
+            </div>
+            <!-- third div -->
+             <hr>
+            <div class="footerlinksthird">
+<p class="interFont">© 2024 Nahla Maddison Home. Powered by Shopify</p>
+<div>
+    <p><a href="#" class="blackColor">Products</a></p>
+    <p><a href="#" class="blackColor">Privacy Policy</a></p>
+    <p><a href="#" class="blackColor">Customer Service</a></p>
+</div>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
